@@ -1,0 +1,35 @@
+#board{
+    padding: 3em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.Row {
+    clear: both;
+    width: 302px;
+    margin: 0 auto ;
+}
+
+.Row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.Top {
+    border-bottom: 1px solid blue;
+} 
+
+.Bottom{
+    border-top: 1px solid blue;
+}
+
+.Left{
+    border-right: 1px solid red;
+}
+
+.Right{
+    border-left: 1px solid red;
+}
+
